@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		B2D9A663250549B0000FDDF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D9A662250549B0000FDDF9 /* AppDelegate.swift */; };
 		B2D9A665250549B0000FDDF9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D9A664250549B0000FDDF9 /* SceneDelegate.swift */; };
-		B2D9A667250549B0000FDDF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D9A666250549B0000FDDF9 /* ViewController.swift */; };
 		B2D9A66A250549B0000FDDF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2D9A668250549B0000FDDF9 /* Main.storyboard */; };
 		B2D9A66C250549B3000FDDF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2D9A66B250549B3000FDDF9 /* Assets.xcassets */; };
 		B2D9A66F250549B3000FDDF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2D9A66D250549B3000FDDF9 /* LaunchScreen.storyboard */; };
+		B2D9A67925054E18000FDDF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D9A67825054E18000FDDF9 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B2D9A65F250549B0000FDDF9 /* LightsOnOffPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightsOnOffPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2D9A662250549B0000FDDF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2D9A664250549B0000FDDF9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B2D9A666250549B0000FDDF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B2D9A669250549B0000FDDF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B2D9A66B250549B3000FDDF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2D9A66E250549B3000FDDF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2D9A670250549B3000FDDF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2D9A67825054E18000FDDF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +56,39 @@
 		B2D9A661250549B0000FDDF9 /* LightsOnOffPractice */ = {
 			isa = PBXGroup;
 			children = (
-				B2D9A662250549B0000FDDF9 /* AppDelegate.swift */,
-				B2D9A664250549B0000FDDF9 /* SceneDelegate.swift */,
-				B2D9A666250549B0000FDDF9 /* ViewController.swift */,
-				B2D9A668250549B0000FDDF9 /* Main.storyboard */,
-				B2D9A66B250549B3000FDDF9 /* Assets.xcassets */,
-				B2D9A66D250549B3000FDDF9 /* LaunchScreen.storyboard */,
-				B2D9A670250549B3000FDDF9 /* Info.plist */,
+				B2D9A676250549D0000FDDF9 /* Resources */,
+				B2D9A67725054ACD000FDDF9 /* View Controllers */,
+				B2D9A67A250552E6000FDDF9 /* Storyboards */,
 			);
 			path = LightsOnOffPractice;
+			sourceTree = "<group>";
+		};
+		B2D9A676250549D0000FDDF9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B2D9A662250549B0000FDDF9 /* AppDelegate.swift */,
+				B2D9A664250549B0000FDDF9 /* SceneDelegate.swift */,
+				B2D9A66B250549B3000FDDF9 /* Assets.xcassets */,
+				B2D9A670250549B3000FDDF9 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B2D9A67725054ACD000FDDF9 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B2D9A67825054E18000FDDF9 /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		B2D9A67A250552E6000FDDF9 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B2D9A668250549B0000FDDF9 /* Main.storyboard */,
+				B2D9A66D250549B3000FDDF9 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2D9A667250549B0000FDDF9 /* ViewController.swift in Sources */,
+				B2D9A67925054E18000FDDF9 /* ViewController.swift in Sources */,
 				B2D9A663250549B0000FDDF9 /* AppDelegate.swift in Sources */,
 				B2D9A665250549B0000FDDF9 /* SceneDelegate.swift in Sources */,
 			);
@@ -285,7 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = LightsOnOffPractice/Info.plist;
+				INFOPLIST_FILE = LightsOnOffPractice/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +326,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = LightsOnOffPractice/Info.plist;
+				INFOPLIST_FILE = LightsOnOffPractice/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
